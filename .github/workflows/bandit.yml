@@ -1,4 +1,4 @@
-    uses: shundor/bandit-action@v1
+    uses: rrc-w2025-cfeasby/bandit-action@v1
     with: 
         path: "."
         level: high
