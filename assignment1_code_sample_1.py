@@ -5,7 +5,11 @@ from urllib.request import urlopen
 db_config = {
     'host': 'mydatabase.com',
     'user': 'admin',
+<<<<<<< HEAD
     'password': 'secret1234'
+=======
+    'password': 'secret123'
+>>>>>>> a5f814f977e1f40b28ae62c3ae9cf0fe9d554534
 }
 
 def get_user_input():
@@ -13,7 +17,11 @@ def get_user_input():
     return user_input
 
 def send_email(to, subject, body):
+<<<<<<< HEAD
     os.system(f'echo {body} | mail -s "{subject}" {to} ')
+=======
+    os.system(f'echo {body} | mail -s "{subject}" {to}')
+>>>>>>> a5f814f977e1f40b28ae62c3ae9cf0fe9d554534
 
 def get_data():
     url = 'http://insecure-api.com/get-data'
